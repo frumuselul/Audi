@@ -1,0 +1,180 @@
+body {
+    height: 2800px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.arrow1 {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+.stiribtn {
+    background-color: black;
+    color: white;
+    border: 0px;
+    margin-left: 37px;
+ }
+ :hover.stiribtn {
+     background-color: rgb(0, 0, 0);
+     color: rgb(255, 255, 255);
+ }
+
+
+/*********************************** NAVBAR *******************************/
+
+.carusel {
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+/*********************************** ROW SETTINGS *******************************/
+
+.rows {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.rowwritten {
+    width: auto;
+    padding-top: 20px;
+    text-align: center;         
+}
+.rowimages {
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+
+}
+
+.sett {
+    margin-left: 10px;
+}
+    
+
+/*********************************** INFO SETTINGS *******************************/
+
+.info {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.infoimg {
+    width: 100%;
+    height: 10%;
+}
+
+.infobox {
+    height: 310px;
+    width: 410px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.infobtn {
+    margin-top: 0px;
+    border: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+
+:hover.infobtn {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+
+/*********************************** MORE INFO SETTINGS *******************************/
+
+.xtext1 {
+    font-weight: bold;
+    text-align: left;
+}
+
+.minfoimg {
+     width: 100%;
+}
+
+.minfobox {
+    height: 410px;
+    width: 410px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 0px;
+    margin-top: 50px;  
+}
+
+.xtext2 {
+    text-align: left;
+}
+
+/*********************************** QUOTE *******************************/
+
+.quote {
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+/*********************************** BOTTOM *******************************/
+
+.ftext {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 1px;
+
+}
+
+.bttm {
+    margin-bottom: 40px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.greybox {
+    height: auto;
+    width: auto;
+    background-color: rgb(68, 68, 68);
+}
+
+.rowb {
+    color: white;
+}
+
+.rowset {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 200px;
+    border-right: solid 1px white;
+    margin-top: 10px;
+}
+
+.boxset {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+}
+
+.rows1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: center; 
+    width: auto;
+}
